@@ -15,7 +15,7 @@ module ForwardingUnit
 );
 	always_comb begin
 		if (reg_wrMW) begin
-			/*
+			
 			if (pre_inst[6:0] == 7'b0000011) begin	// Load
 				case (new_inst[6:0])
 					7'b0110011: begin		// R-type
@@ -27,7 +27,7 @@ module ForwardingUnit
 						Stall_MW <= (new_inst[19:15] == pre_inst[11:7]);
 					end
 				endcase
-			end */
+			end
 			case (new_inst[6:0])
 				7'b0110011: begin		// R-type
 					if (new_inst[19:15] == 0) For_A <= 0;
