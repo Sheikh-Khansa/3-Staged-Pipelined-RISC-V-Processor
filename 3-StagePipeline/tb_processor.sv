@@ -2,8 +2,7 @@
 
 module tb_processor();
 
-    // add x3, x4, x2
-    // 00000000001000100000000110110011
+
 
     logic clk;
     logic rst;
