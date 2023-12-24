@@ -1,0 +1,63 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Sun Dec 24 08:50:04 2023
+[*]
+[dumpfile] "F:\3-StagePipeline\processor.vcd"
+[dumpfile_mtime] "Sun Dec 24 08:36:32 2023"
+[dumpfile_size] 264419
+[savefile] "F:\3-StagePipeline\config.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-14.000000 59457 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_processor.
+[sst_width] 211
+[signals_width] 222
+[sst_expanded] 1
+[sst_vpaned_height] 154
+@200
+-input parameters
+@22
+tb_processor.dut.index[31:0]
+tb_processor.dut.instruction[31:0]
+tb_processor.dut.A[31:0]
+tb_processor.dut.B[31:0]
+tb_processor.dut.alu_op[3:0]
+tb_processor.dut.alu_out[31:0]
+@28
+tb_processor.dut.clk
+tb_processor.dut.rst
+@22
+tb_processor.dut.ALU_execute_memory[31:0]
+@28
+tb_processor.dut.br_taken
+tb_processor.dut.br_type[2:0]
+tb_processor.dut.sel_B
+tb_processor.dut.For_B
+@22
+tb_processor.dut.B_for[31:0]
+tb_processor.dut.B_r[31:0]
+tb_processor.dut.B_i[31:0]
+@28
+tb_processor.dut.sel_A
+tb_processor.dut.For_A
+@22
+tb_processor.dut.A_for[31:0]
+tb_processor.dut.A_r[31:0]
+@200
+-IF<-->ID&EX
+@22
+tb_processor.dut.IR_fetch_decode[31:0]
+tb_processor.dut.PC_fetch_decode[31:0]
+tb_processor.dut.wdata[31:0]
+@28
+tb_processor.dut.Stall
+tb_processor.dut.Flush
+@200
+-ID&EX<-->MEM&WB
+@22
+tb_processor.dut.PC_fetch_decode[31:0]
+tb_processor.dut.PC_execute_memory[31:0]
+tb_processor.dut.IR_execute_memory[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
