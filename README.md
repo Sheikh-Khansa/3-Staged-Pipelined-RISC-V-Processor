@@ -7,6 +7,7 @@ This repository features a 3-stage pipelined RISC-V processor, designed for effi
 
 **Stage-3** Memory(MEM) and Write Back(WB)
 
+The files decsription is in the [report](https://github.com/Sheikh-Khansa/3-Staged-Pipelined-RISC-V-Processor/blob/main/Report.pdf).
 
 # Guidelines
 Follow the following guidlines
