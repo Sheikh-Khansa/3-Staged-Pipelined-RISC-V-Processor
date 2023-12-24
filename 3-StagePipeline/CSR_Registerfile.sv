@@ -9,7 +9,7 @@ module CSR_RegisterFile
     input  logic [31:0] wdata, 
     input  logic [31:0] PC, 
     input  logic [1:0 ] interrupt,
-	output logic        epc_taken, 
+    output logic        epc_taken, 
     output logic [31:0] rdata, 
     output logic [31:0] exc_pc
     
